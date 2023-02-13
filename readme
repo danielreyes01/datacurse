@@ -1,0 +1,7 @@
+echo "# datacurse" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/danielreyes01/datacurse.git
+git push -u origin main
